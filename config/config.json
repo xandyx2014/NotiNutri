@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "notinutri",
-    "host": "localhost",
+    "username": "sqLG2OBLgq",
+    "password": "abA5vttY2E",
+    "database": "sqLG2OBLgq",
+    "host": "remotemysql.com",
     "dialect": "mysql"
   },
   "test": {
