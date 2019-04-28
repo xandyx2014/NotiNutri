@@ -96,9 +96,7 @@ function login(req, res) {
         message: 'el usuario no existe'
       });
     } else {
-      bcrypt.compare(password, usuarioResp.password, function(err, resOk) {
-        
-        
+      bcrypt.compare(password, usuarioResp.password, function(err, resOk) {        
         usuarioResp.password = '...';
         if (resOk) {
           if (tipo == 'doctor') {
@@ -116,6 +114,11 @@ function login(req, res) {
                   message: 'No se ha encontrado el usuario'
                 });
               }
+            }).catch( errorConection => {
+              return res.status(200).json({
+                ok: false,
+                error: errorConection
+              });
             });
           } else {
             Paciente.findOne({ where: {usuario_id: usuarioResp.id}}).then( resPaciente => {
@@ -133,6 +136,11 @@ function login(req, res) {
                 });
               }
               
+            }).catch( errorConection => {
+              return res.status(200).json({
+                ok: false,
+                error: errorConection
+              });
             });
           }
         } else {
