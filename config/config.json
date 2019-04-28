@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "sqLG2OBLgq",
-    "password": "abA5vttY2E",
-    "database": "sqLG2OBLgq",
-    "host": "remotemysql.com",
+    "username": "xandyx2014",
+    "password": "roxana123",
+    "database": "notinutri",
+    "host": "db4free.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "xandyx2014",
+    "password": "roxana123",
+    "database": "notinutri",
+    "host": "db4free.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "xandyx2014",
+    "password": "roxana123",
     "database": "notinutri",
-    "host": "localhost",
+    "host": "db4free.net",
     "dialect": "mysql"
   }
 }

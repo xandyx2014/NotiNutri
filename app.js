@@ -11,5 +11,6 @@ app.use('/pacientes', require('./routes/paciente.route'));
 app.use('/vacunas', require('./routes/vacuna.route'));
 app.use('/refuerzos', require('./routes/refuerzo.route'));
 app.use('/inyeciones', require('./routes/inyeccion.route'));
+app.use('/doctors', require('./routes/doctor.route'));
 
 module.exports = app;  
