@@ -4,7 +4,14 @@
     "password": "roxana123",
     "database": "notinutri",
     "host": "db4free.net",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "pool": {
+      "max": 300,
+      "min": 5,
+      "idle": 20000,
+      "evict": 15000,
+      "acquire": 30000
+    }
   },
   "test": {
     "username": "xandyx2014",
