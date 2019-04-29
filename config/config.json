@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "xandyx2014",
-    "password": "roxana123",
-    "database": "notinutri",
-    "host": "db4free.net",
+    "username": "b827aca0f0dd62",
+    "password": "43c8d786",
+    "database": "heroku_fffc5ad7d755098",
+    "host": "us-cdbr-iron-east-02.cleardb.net",
     "dialect": "mysql",
     "pool": {
       "max": 300,
